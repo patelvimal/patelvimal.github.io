@@ -1,0 +1,158 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Raleway','Montserrat', sans-serif;
+  width: 100%;
+  height: 100%; }
+
+body {
+  background: #f5f5f5; }
+
+.left-section {
+  background: #286090;
+  color: #f6f6f9;
+  padding: 0px 16px;
+  height: 100%; }
+  .left-section .imgProfile {
+    border: solid 7px #ffffff;
+    border-radius: 30px; }
+  .left-section .main-title {
+    font-size: 30px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #9ebdcc;
+    margin: 0px 50px;
+    text-transform: uppercase;
+    padding: 15px 0; }
+    @media only screen and (min-width: 769px) and (max-width: 1281px) {
+      .left-section .main-title {
+        /* 10 inch tablet enter here */
+        font-size: 25px;
+        letter-spacing: 2px;
+        border-bottom: 1px solid #9ebdcc;
+        margin: 0px 10px;
+        text-transform: uppercase;
+        padding: 15px 0; } }
+  .left-section .sub-title {
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .left-section i {
+    margin-right: 3px;
+    width: 20px;
+    color: #9ebdcc; }
+  .left-section i.fa-angle-right {
+    width: 7px; }
+  .left-section i.fa-2x {
+    padding: 0px 25px; }
+  .left-section a {
+    color: #f6f6f9; }
+  .left-section span {
+    border-bottom: solid 1px #63889a;
+    padding-bottom: 2px; }
+
+.box-section {
+  margin: 20px 0; }
+  .box-section .section-title {
+    font-size: 15px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px; }
+  .box-section > p {
+    padding-left: 25px;
+    font-size: 13px;
+    margin: 8px 0px;
+    border: solid 0px; }
+
+@media only screen and (max-width: 769px) {
+  .right-section {
+    background: #ffffff; } }
+
+.right-section .section-title {
+  line-height: 0px;
+  border: solid 0px;
+  font-family: 'Montserrat', sans-serif; }
+  .right-section .section-title span {
+    font-size: 18px;
+    border-bottom: solid 1px #63889a;
+    padding-bottom: 2px; }
+  .right-section .section-title i {
+    width: 32px;
+    height: 32px; }
+
+.right-section .box-section > p, .right-section .box-section > div > p {
+  padding-left: 35px;
+  font-size: 13px;
+  margin: 8px 0px;
+  border: solid 0px; }
+
+.right-section .project-img {
+  height: 200px;
+  overflow: hidden; }
+
+@media only screen and (min-width: 769px) and (max-width: 1281px) {
+  /* 10 inch tablet enter here */ }
+
+.row {
+  overflow: hidden; }
+
+[class*="col-"] {
+  margin-bottom: -99999px;
+  padding-bottom: 99999px; }
+
+.img-container {
+  width: 100%;
+  height: 200px;
+  max-height: 240px;
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+  margin-bottom: 10px; }
+
+.img-container img {
+  position: absolute;
+  max-width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.panel-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-bottom: solid 1px #c3c2c2;
+  color: #3e4788;
+  padding-bottom: 2px; }
+
+.project-list p, .box-section.work-exp p {
+  font-family: 'verdana';
+  font-size: 14px !important; }
+  .project-list p > i, .box-section.work-exp p > i {
+    margin-right: 5px; }
+
+.project-list > .row, .box-section.work-exp > .row {
+  margin-bottom: 25px; }
+
+.box-section.about-details p {
+  font-family: 'verdana';
+  font-size: 15px;
+  text-align: justify; }
+  .box-section.about-details p > i {
+    margin-right: 5px; }
+
+.label {
+  font-weight: 100;
+  font-size: 85%; }
+
+.label-secondary {
+  background-color: #e5eabc;
+  color: black;
+  margin-right: 4px; }
+
+.sub-title {
+  font-size: 15px;
+  border-bottom: solid 1px #c3c2c2;
+  padding-bottom: 2px; }
+
+.designation {
+  padding-left: 70px !important; }
+
