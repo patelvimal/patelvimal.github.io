@@ -132,6 +132,13 @@ body {
 .project-list > .row, .box-section.work-exp > .row {
   margin-bottom: 25px; }
 
+.project-list .sub-title, .box-section.work-exp .sub-title {
+  font-size: 15px;
+  padding-bottom: 2px; }
+
+.project-list .designation, .box-section.work-exp .designation {
+  padding-left: 70px !important; }
+
 .box-section.about-details p {
   font-family: 'verdana';
   font-size: 15px;
@@ -147,12 +154,4 @@ body {
   background-color: #e5eabc;
   color: black;
   margin-right: 4px; }
-
-.sub-title {
-  font-size: 15px;
-  border-bottom: solid 1px #c3c2c2;
-  padding-bottom: 2px; }
-
-.designation {
-  padding-left: 70px !important; }
 
