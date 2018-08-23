@@ -20,6 +20,7 @@ body {
     color:$white-fore-color;
     padding: 0px 16px;
     height: 100%;
+
     .imgProfile {
         border: solid 7px #ffffff;
         border-radius: 30px;
@@ -48,11 +49,7 @@ body {
         letter-spacing: 2px;
         text-transform: uppercase;
     }
-    i {
-        margin-right: 3px;
-        width: 20px;
-        color:#9ebdcc;
-    }
+   
 
     i.fa-angle-right {
         width: 7px;
@@ -65,16 +62,20 @@ body {
         color:$white-fore-color;
     }
 
-    span {
-        border-bottom: solid 1px #63889a;
-        padding-bottom: 2px;
+    i {
+        color:#9ebdcc;
     }
-    
 }
 
 
 .box-section {
     margin: $primary-margin 0;
+
+    i {
+        margin-right: 3px;
+        width: 20px;
+    }
+
 
     .section-title {
         font-size: 15px;
@@ -82,14 +83,21 @@ body {
         text-transform: uppercase;
         font-family:'Montserrat', sans-serif;
         margin-bottom: 10px;
+
+        span {
+            border-bottom: solid 1px #63889a;
+            padding-bottom: 2px;
+        }
     }
 
     > p {
         padding-left: $primary-padding;
-        font-size: 13px;
         margin: 8px 0px;
         border: solid 0px;
     }
+
+    
+   
 }
 
 .right-section {
@@ -100,22 +108,20 @@ body {
     .section-title {
         line-height: 0px;
         border: solid 0px;
-        font-family:'Montserrat', sans-serif;
-        span {
-            font-size: 18px;
-            border-bottom: solid 1px #63889a;
-            padding-bottom: 2px;
-        }
+        // font-family:'Montserrat', sans-serif;
+        // span {
+        //     font-size: 18px;
+        //     border-bottom: solid 1px #63889a;
+        //     padding-bottom: 2px;
+        // }
         i {
-            width: 32px;
-            height: 32px;
+            color:#3e4788;
         }
     }
 
     .box-section, .box-section > div {
         > p {
-            padding-left: 35px;;
-            font-size: 13px;
+            padding-left: 25px;;
             margin: 8px 0px;
             border: solid 0px;
         }
@@ -126,6 +132,9 @@ body {
         overflow: hidden;
     }
 
+    .sub-title i{
+        width: 10px;
+    }
 }
 
 
@@ -161,20 +170,20 @@ body {
 .panel-title {
     margin-top: 0px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 18px;
     border-bottom: solid 1px #c3c2c2;
     color: #3e4788;
     padding-bottom: 2px;
 }
 
 .project-list, .box-section.work-exp {
-    p {
-        font-family: 'verdana';
-        font-size: 14px !important;
-        > i {
-            margin-right: 5px;
-        }
-    }
+    // p {
+    //     //font-family: 'verdana';
+    //     font-size: 14px !important;
+    //     > i {
+    //         margin-right: 5px;
+    //     }
+    // }
     > .row {
         margin-bottom: 25px;
     }
@@ -192,12 +201,13 @@ body {
 }
 .box-section.about-details {
     p {
-        font-family: 'verdana';
-        font-size: 15px;
+        //font-family: 'verdana';
+        // font-size: 15px;
+        color:black;
         text-align: justify;
 
         > i {
-            margin-right: 5px;
+            width: 10px;
         }
     }
 }
