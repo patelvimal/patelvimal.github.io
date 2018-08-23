@@ -5,7 +5,7 @@ I am an Full stack Web Developer having 7+ years of experience in Analysis, Desi
 ### SkillSet ###
 Angular 6/ Angular 1.5, Javascript, Typescript, C#.Net, Asp.net MVC, HTML5, CSS3, WebApi, SQL Server.
 
-### Contact ### <br>
+### Contact ###  
 Email - vimal.patel.nvs@gmail.com <br>
 Mobile:- +91-9604115399 / +91-997924808 <br>
 Location:- Pune, India <br>
