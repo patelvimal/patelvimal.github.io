@@ -1,0 +1,214 @@
+$bg-color: #286090;
+$white-fore-color:#f6f6f9;
+$primary-margin:20px;
+$primary-padding:25px;
+
+html, body {
+    padding: 0px;
+    margin:0px;
+    font-family: 'Raleway','Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+.left-section {
+    background: $bg-color;
+    color:$white-fore-color;
+    padding: 0px 16px;
+    height: 100%;
+    .imgProfile {
+        border: solid 7px #ffffff;
+        border-radius: 30px;
+    }
+
+    .main-title {
+        font-size: 30px;
+        letter-spacing: 2px;
+        border-bottom: 1px solid #9ebdcc;
+        margin: 0px 50px;
+        text-transform: uppercase;
+        padding: 15px 0;
+
+        @media only screen and (min-width: 769px) and (max-width: 1281px) { /* 10 inch tablet enter here */
+            font-size: 25px;
+            letter-spacing: 2px;
+            border-bottom: 1px solid #9ebdcc;
+            margin: 0px 10px;
+            text-transform: uppercase;
+            padding: 15px 0;
+        } 
+    }
+
+
+    .sub-title {
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    i {
+        margin-right: 3px;
+        width: 20px;
+        color:#9ebdcc;
+    }
+
+    i.fa-angle-right {
+        width: 7px;
+    }
+    i.fa-2x {
+        padding: 0px 25px;
+    }
+    
+    a {
+        color:$white-fore-color;
+    }
+
+    span {
+        border-bottom: solid 1px #63889a;
+        padding-bottom: 2px;
+    }
+    
+}
+
+
+.box-section {
+    margin: $primary-margin 0;
+
+    .section-title {
+        font-size: 15px;
+        margin-bottom: 3px;
+        text-transform: uppercase;
+        font-family:'Montserrat', sans-serif;
+        margin-bottom: 10px;
+    }
+
+    > p {
+        padding-left: $primary-padding;
+        font-size: 13px;
+        margin: 8px 0px;
+        border: solid 0px;
+    }
+}
+
+.right-section {
+    @media only screen and (max-width: 769px) {
+        background: #ffffff;
+    } 
+
+    .section-title {
+        line-height: 0px;
+        border: solid 0px;
+        font-family:'Montserrat', sans-serif;
+        span {
+            font-size: 18px;
+            border-bottom: solid 1px #63889a;
+            padding-bottom: 2px;
+        }
+        i {
+            width: 32px;
+            height: 32px;
+        }
+    }
+
+    .box-section, .box-section > div {
+        > p {
+            padding-left: 35px;;
+            font-size: 13px;
+            margin: 8px 0px;
+            border: solid 0px;
+        }
+    }
+    
+    .project-img {
+        height: 200px;
+        overflow: hidden;
+    }
+
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1281px) { /* 10 inch tablet enter here */
+    
+} 
+
+.row{
+    overflow: hidden; 
+}
+
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+.img-container {
+    width: 100%;
+    height: 200px;
+    max-height: 240px;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+    margin-bottom: 10px;
+}
+.img-container img {
+    position: absolute;
+    max-width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.panel-title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-bottom: solid 1px #c3c2c2;
+    color: #3e4788;
+    padding-bottom: 2px;
+}
+
+.project-list, .box-section.work-exp {
+    p {
+        font-family: 'verdana';
+        font-size: 14px !important;
+        > i {
+            margin-right: 5px;
+        }
+    }
+    > .row {
+        margin-bottom: 25px;
+    }
+
+    
+    .sub-title {
+        font-size: 15px;
+        padding-bottom: 2px;
+    }
+    .designation {
+        padding-left: 70px !important;
+    }
+
+   
+}
+.box-section.about-details {
+    p {
+        font-family: 'verdana';
+        font-size: 15px;
+        text-align: justify;
+
+        > i {
+            margin-right: 5px;
+        }
+    }
+}
+
+.label {
+    font-weight: 100;
+    font-size: 85%;
+}
+
+.label-secondary {
+    background-color: #e5eabc;
+    color: black;
+    margin-right: 4px;
+}

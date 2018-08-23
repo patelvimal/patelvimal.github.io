@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+
+    <title>Vimal Patel - Web Developer</title>
+    <link rel="icon" href="./assets/portfolio.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./assets/portfolio.ico" type="image/x-icon">
+    <link href="data:image/x-icon;base64,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"
+        rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12 left-section">
+                <div class="box-section text-center">
+                    <img src="./assets/profile.jpg" width="150" height="150" class="img-circle">
+                    <h3 class="main-title">Vimal Patel</h3>
+                    <h6 class="sub-title">Web Developer</h6>
+                </div>
+                <div class="box-section">
+                    <div class="section-title">
+                        <i class="fa fa-briefcase"></i>
+                        <span>Skill-Set</span>
+                        </i>
+                    </div>
+                    <p><i class="fa fa-angle-right"></i>Angular 6 / Angular 1.5</p>
+                    <p>
+                        <i class="fa fa-angle-right"></i>Javascript, Typescript, JQuery</p>
+                    <p>
+                        <i class="fa fa-angle-right"></i>C#.Net, Asp.Net MVC, WebApi, WCF</p>
+                    <p>
+                        <i class="fa fa-angle-right"></i>Html-5, SCSS, CSS-3, Bootstrap, Foundation</p>
+                    <p>
+                        <i class="fa fa-angle-right"></i>TFS, Git and TortoiseSVN</p>
+                    <p>
+                        <i class="fa fa-angle-right"></i>SQL Server 2005/2012, Oracle</p>
+                </div>
+                <div class="box-section">
+                    <div class="section-title">
+                        <i class="fa fa-address-book"></i>
+                        <span>Contact</span>
+                    </div>
+                    <p>
+                        <i class="fa fa-envelope"></i>
+                        <a href="mailto:vimal.patel.nvs@gmail.com">vimal.patel.nvs@gmail.com</a>
+                    </p>
+                    <p>
+                        <i class="fas fa-phone-square"></i>+91-9604115399 / +91-997924808</p>
+                    <p>
+                        <i class="fa fa-map-marker"></i>Pune, India</p>
+                    <p>
+                        <a href="https://github.com/patelvimal" target="_blank">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                        <a href="https://stackoverflow.com/users/1289713/vimal-patel" target="_blank">
+                            <i class="fab fa-stack-overflow fa-2x"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/patel-vimal/" target="_blank">
+                            <i class="fa fa-linkedin-square fa-2x"></i>
+                        </a>
+                        <a href="https://www.facebook.com/vimal.patel.nvs/" target="_blank">
+                            <i class="fa fa-facebook-official fa-2x"></i>
+                        </a>
+                    </p>
+                    <p></p>
+
+                    <!-- <p><i class="fa fa-envelope"></i><a href="mailto:vimal.patel.nvs@gmail.com">vimal.patel.nvs@gmail.com</a></p>
+                    <p><i class="fas fa-phone-square"></i>+91-9604115399 / +91-997924808</p>
+                    <p><i class="fab fa-github"></i><a href="https://github.com/patelvimal" target="_blank">Github</a></p>
+                    <p><i class="fab fa-stack-overflow"></i><a href="https://stackoverflow.com/users/1289713/vimal-patel" target="_blank">StackOverflow</a></p>
+                    <p><i class="fa fa-linkedin-square"></i><a href="https://www.linkedin.com/in/patel-vimal/" target="_blank">LinkedIn</a></p>
+                    <p><i class="fa fa-facebook-official"></i><a href="https://www.facebook.com/vimal.patel.nvs/" target="_blank">Facebook</a></p>
+                    <p><i class="fa fa-map-marker"></i>Pune, India</p> -->
+                </div>
+                <div class="box-section">
+                    <div class="section-title">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Education</span>
+                    </div>
+                    <p>Master of Computer Application - IGNOU</p>
+                    <p>Bachlor of Computer Application - IGNOU</p>
+                </div>
+                <div class="box-section">
+                    <div class="section-title">
+                        <i class="fa fa-flag"></i>
+                        <span>Interests/Hobbies</span>
+                    </div>
+                    <p>Music is everything</p>
+                    <p>Books can take you to some other world</p>
+                    <p>Nothing can beat playing PC games espcially COD</p>
+                    <p>Fitness should not be ignored</p>
+                    <p>Travelling</p>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-8 col-xs-12 right-section">
+                <div class="box-section about-details">
+                    <div class="section-title">
+                        <i class="fa fa-user fa-2x"></i>
+                        <span>About / Professional Summary</span>
+                    </div>
+                    <p><i class="fa fa-angle-double-right"></i>I am an Full stack Web Developer having 7+ years of experience in Analysis, Design, Development and Implementation of business application system for Healthcare,
+                    E-Commerce, Insurance, Automobile, Textile, Diamond and various small businesses.
+                    </p>
+                    <p><i class="fa fa-angle-double-right"></i>Experience in Agile Software Development process using SCRUM methodology.
+                    </p>
+                    <p><i class="fa fa-angle-double-right"></i>My skillset includes 
+                    <span class="label label-secondary">C#.Net</span>,
+                    <span class="label label-secondary">Angular 4/6</span>,
+                    <span class="label label-secondary">React</span>,
+                    <span class="label label-secondary">Asp.net MVC</span>,
+                    <span class="label label-secondary">Javascript</span>,
+                    JQuery, HTML5, CSS3, UI design ,WCF, SQL server, Oracle along with languages, libraries and framework related to them.
+                    </p>
+                </div>
+                <div class="box-section project-list">
+                    <div class="section-title">
+                        <i class="fas fa-tasks fa-2x"></i>
+                        <span>Projects</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="img-container">
+                                <img src="./assets/iMedOne.png">
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <h3 class="panel-title">iMedOne (Healthcare)</h3>
+                            <p>MedOne is the client-server application for the Hospital Information System (HIS) to optimize work processes in 
+                                the hospitals.iMedOne is also used for billing, treatment planning, patient management, hospital logistics, 
+                                document management, and quality management..
+                            </p>
+                            <p>Technologies:-
+                                <span class="label label-primary">Angular JS with Typescript</span>
+                                <span class="label label-primary">WebApi with C#</span>
+                                <span class="label label-primary">Oracle</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="img-container">
+                                <img src="./assets/referTree.jpg">
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <h3 class="panel-title">ReferTree/Assurant (eCommerce)</h3>
+                            <p>Refer-Tree is a subscription based marketplace, where customer could sign up for subscription-based
+                                purchases. Customer would benefit from referring their friends by receiving a percentage
+                                of any money their friends spend on the marketplace. It is limited to mobile application.
+                            </p>
+                            <p>Technologies:-
+                                <span class="label label-primary">WebApi with C#</span>
+                                <span class="label label-primary">SQL Server 2008</span>
+                                <span class="label label-primary">Xamerin</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="img-container">
+                                <img src="./assets/ols.jpg">
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <h3 class="panel-title">OnlineShoes.com (eCommerce)</h3>
+                            <p>his is a eCommerce site for Shoes only. The functionality of the project has been divided into different modules.
+                            The core modules of the system are Cart, Checkout/Place an Order, Returns an Order, localization support (to display price),
+                            Third party integration, product upload/updates Management, Enabling or Disabling a particular functionality etc.</p>
+                            <p>Technologies:-
+                                <span class="label label-primary">ASP.Net MVC 4.0</span>
+                                <span class="label label-primary">SQL Server 2008</span>
+                                <span class="label label-primary">Foundation Zurb</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="img-container">
+                                <img src="./assets/insurance.jpg">
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <h3 class="panel-title">Carrier Integration (Insurance)</h3>
+                            <p>This is a car insurance comparison-shopping site. They do not provide an insurance instead user can easily 
+                            compare insurance rates from top companies and even buy it online. It has many modules like integrate new Carriers
+                            into the system. Manage existing ones and creating services that can be used by carriers.
+                        </p>
+                        <p>Technologies:-
+                            <span class="label label-primary">ASP.Net MVC 4.0</span>
+                            <span class="label label-primary">SQL Server 2008</span>
+                            <span class="label label-primary">WebApi with C#</span>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-section work-exp">
+                    <div class="section-title">
+                        <i class="fa fa-black-tie fa-2x"></i>
+                        <span>Work Experience</span>
+                    </div>
+                    <div>
+                        <p class="sub-title"><i class="fa fa-angle-double-right"></i>Deutsche Telekom Clinical Solutions (Jan-2017 to Present) <i class="fa fa-map-marker"></i>Pune, India</p>
+                        <!-- <p class="designation">Senior Software Engineer  <i class="fa fa-map-marker"></i>Pune, India</p> -->
+                    </div>
+                    <div>
+                        <p class="sub-title"><i class="fa fa-angle-double-right"></i>Zensar Technologies (Dec-2014 - Jan-2017) <i class="fa fa-map-marker"></i>Pune, India</p>
+                        <!-- <p class="designation">Senior Software Engineer  <i class="fa fa-map-marker"></i>Pune, India</p> -->
+                    </div>
+                    <div>
+                        <p class="sub-title"><i class="fa fa-angle-double-right"></i>SA Technologies (Apr-2014 - Dec-2014) <i class="fa fa-map-marker"></i>Pune, India</p>
+                        <!-- <p class="designation">Software Engineer  <i class="fa fa-map-marker"></i>Pune, India</p> -->
+                    </div>
+                    <div>
+                        <p class="sub-title"><i class="fa fa-angle-double-right"></i>Rheal Software Pvt. Ltd (Feb-2013 - Apr-2014) <i class="fa fa-map-marker"></i>Pune, India</p>
+                        <!-- <p class="designation">Software Engineer  <i class="fa fa-map-marker"></i>Pune, India</p> -->
+                    </div>
+                    <div>
+                        <p class="sub-title"><i class="fa fa-angle-double-right"></i>Integrated IT Solutions (Oct-2010 - Feb-2013) <i class="fa fa-map-marker"></i>Surat, India</p>
+                        <!-- <p class="designation">Junior Software Engineer  <i class="fa fa-map-marker"></i>Pune, India</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
